@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Сайт блога</title>
+</head>
+<body class="body">
+    <header>
+        <div class="header">
+            <div class="logo">
+                <span>Bookshop</span>
+            </div>
+            <nav class="header-nav">
+                <ul class="menu">
+                    <li><a href="#" class="menu-active">books</a></li>
+                    <li><a href="#">audiobooks</a></li>
+                    <li><a href="#">Stationery & gifts</a></li>
+                    <li><a href="#">blog</a></li>
+                </ul>
+            </nav>
+            <ul class="header-button">
+                <li><a href="#"><img src="./src/images/user.svg" alt="profile"></a></li>
+                <li><a href="#"><img src="./src/images/search.svg" alt="search"></a></li>
+                <li><a href="#">
+                    <img src="./src/images/shop_bag.svg" alt="shop bag">
+                    <span class="shop-bag__counter hidden"></span>
+                </a></li>
+            </ul>
+            <div class="hamburger"><img src="./src/images/menu.svg" alt="hamburger"></div>
+        </div>
+        <nav class="mobile-nav hidden">
+            <ul class="mobile-menu">
+                <li><a href="#" class="menu-active">books</a></li>
+                <li><a href="#">audiobooks</a></li>
+                <li><a href="#">Stationery & gifts</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">profile</a></li>
+                <li><a href="#">search</a></li>
+                <li><a href="#">shop bag<span class="shop-bag__counter hidden"></span>
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="slider">
+            <div class="slider-banners">
+                <img src="./src/images/banner1.png" class="slider-banners__img active" id="banner_1" alt="banner">
+                <img src="./src/images/banner2.png" class="slider-banners__img" id="banner_2" alt="banner">
+                <img src="./src/images/banner3.png" class="slider-banners__img" id="banner_3" alt="banner">
+            </div>
+            <div class="slider-dots">
+                <button class="slider-dots__dot active" id="dot_1"></button>
+                <button class="slider-dots__dot" id="dot_2"></button>
+                <button class="slider-dots__dot" id="dot_3"></button>
+            </div>
+        </div>  
+    </main>
+    <footer>
+    </footer>
+    <script src="output/main.js"></script>
+</body>
+</html>
