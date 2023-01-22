@@ -8,7 +8,7 @@ module.exports = {
         path: path.resolve(__dirname, 'output'),
         filename: 'main.js'
     },
-    mode: 'production',
+    mode: 'development',
     plugins: [
         new MiniCssExtractPlugin(),
         new CssMinimizerPlugin(),
